@@ -1,0 +1,39 @@
+
+
+.aside .logo a::before{
+	border-top:4px solid green;
+	border-left: 4px solid green;
+}
+.aside .logo a::after{
+	border-right:4px solid green;
+	border-bottom: 4px solid green;
+}
+.lightbox .lightbox_controls .prev_item,
+.lightbox .lightbox_controls .next_item,
+.portfolio_section .portfolio_item .portfolio_info .icon,
+.portfolio_section .portfolio_filter button.active,
+.service_section .service_item .service_item_inner .icon,
+.aside .nav li a:hover,
+.aside .nav li a.active{
+	color:green;
+}
+.service_section .service_item .service_item_inner:hover .icon,
+.about_section .timeline .circle_dot,
+.about_section .timeline .timeline_item::before,
+.about_section .skills .skill_item .progress .progress_in,
+.aside .nav_toggler span,
+.aside .nav_toggler span::before,
+.aside .nav_toggler span::after,
+.home_section .intro .social_links a,
+.section_title h2::before,
+.section_title h2::after,
+.btn{
+	background-color: green;
+}
+.about_content .about_text span{
+	color:green;
+}
+.portfolio_section .portfolio_filter button.active{
+	border-color:green;
+
+}
